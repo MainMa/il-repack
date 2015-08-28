@@ -2355,7 +2355,7 @@ namespace Mono.Cecil {
 		{
 			var type = enum_type.CheckedResolve ();
 			if (!type.IsEnum)
-				throw new ArgumentException ();
+				return;
 
 			WriteCustomAttributeValue (type.GetEnumUnderlyingType (), value);
 		}

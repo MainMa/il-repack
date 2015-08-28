@@ -94,30 +94,30 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Resources\BamlGeneration\GenericXaml\EmptyResourceDictionary\End.xaml">
+    <None Include="Resources\BamlGeneration\GenericXaml\EmptyResourceDictionary\End.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\BamlGeneration\GenericXaml\ExistingMergedDictionaries\Start.xaml">
+    </None>
+    <None Include="Resources\BamlGeneration\GenericXaml\ExistingMergedDictionaries\Start.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\BamlGeneration\GenericXaml\ExistingMergedDictionaries\End.xaml">
+    </None>
+    <None Include="Resources\BamlGeneration\GenericXaml\ExistingMergedDictionaries\End.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\BamlGeneration\GenericXaml\NonExistingMergedDictionaries\End.xaml">
+    </None>
+    <None Include="Resources\BamlGeneration\GenericXaml\NonExistingMergedDictionaries\End.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\BamlGeneration\GenericXaml\NonExistingMergedDictionaries\Start.xaml">
+    </None>
+    <None Include="Resources\BamlGeneration\GenericXaml\NonExistingMergedDictionaries\Start.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\BamlGeneration\GenericXaml\EmptyResourceDictionary\Start.xaml">
+    </None>
+    <None Include="Resources\BamlGeneration\GenericXaml\EmptyResourceDictionary\Start.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
+    </None>
     <Page Include="Resources\BamlGeneration\GenericXaml\Sample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

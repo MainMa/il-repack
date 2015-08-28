@@ -54,8 +54,8 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="PresentationCore" Condition=" '$(Configuration)' != 'Debug_unix' " />
-    <Reference Include="PresentationFramework" Condition=" '$(Configuration)' != 'Debug_unix' " />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml" />
@@ -84,10 +84,6 @@
     <ProjectReference Include="..\cecil\Mono.Cecil.csproj">
       <Project>{d68133bd-1e63-496e-9ede-4fbdbf77b486}</Project>
       <Name>Mono.Cecil</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ILRepack.IntegrationTests\Scenarios\ClassLibrary\ClassLibrary.csproj">
-      <Project>{801489b7-46cb-42d0-8581-0120f3566a8f}</Project>
-      <Name>ClassLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\ILRepack\ILRepack.csproj">
       <Project>{4a253a60-d998-4ca2-b9d5-46567a2fbf80}</Project>
